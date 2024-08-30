@@ -61,8 +61,6 @@ physicsWorld.addBody(planeBody);
 const texture = loader.load('resources/images/wall.jpg');
 texture.colorSpace = THREE.SRGBColorSpace;
 
-var vShader = document.getElementById( 'vertexShader' ).innerHTML;
-var fShader = document.getElementById( 'fragmentShader' ).innerHTML;
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshPhongMaterial({
   //color: 0x00ff80,
